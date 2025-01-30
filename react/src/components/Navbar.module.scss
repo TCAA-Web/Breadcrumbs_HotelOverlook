@@ -1,0 +1,21 @@
+.navbar {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  ul {
+    width: 40%;
+    margin: auto;
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(2, 1fr);
+    li {
+      list-style-type: none;
+      a {
+        color: black;
+      }
+    }
+  }
+}
